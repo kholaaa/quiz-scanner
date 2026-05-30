@@ -194,19 +194,22 @@ flutter run
 
 ---
 
-##OMR DETECTION 
+## OMR DETECTION 
+
 <img width="638" height="790" alt="image" src="https://github.com/user-attachments/assets/15c58eef-a856-4935-8168-90692ccba9cf" />
 <img width="472" height="502" alt="image" src="https://github.com/user-attachments/assets/86cc22d7-18df-4a3e-a21f-7c5a18d5253d" />
 <img width="562" height="798" alt="image" src="https://github.com/user-attachments/assets/1416bdfd-3b6a-461a-a2ac-08381f3748de" />
 <img width="230" height="468" alt="image" src="https://github.com/user-attachments/assets/3d8fd8ec-609d-483b-93f4-a32a8c6eed45" />
 <img width="572" height="767" alt="image" src="https://github.com/user-attachments/assets/36a76c51-3741-4692-a5fb-d14bf98e6e0e" />
 
-##Batch processing
+## Batch processing
+
 <img width="343" height="708" alt="image" src="https://github.com/user-attachments/assets/596d73cc-5fb7-44f1-9cc3-b3eb83a4864a" />
 <img width="321" height="677" alt="image" src="https://github.com/user-attachments/assets/e2df7bbe-f86a-45d2-ab24-ef924af228cc" />
 <img width="555" height="445" alt="image" src="https://github.com/user-attachments/assets/0d59c655-73f6-430e-8b47-52e21ddb4742" />
 
-##Bonus Task
+## Bonus Task
+
 <img width="396" height="735" alt="image" src="https://github.com/user-attachments/assets/8681d23d-40ee-4e00-be09-2097ab4ef232" />
 <img width="397" height="732" alt="image" src="https://github.com/user-attachments/assets/87cf7629-3461-4d6e-b95d-afebb2a8d172" />
 <img width="557" height="562" alt="image" src="https://github.com/user-attachments/assets/ce237ac3-5ef5-4b59-a74b-2c93d3204c35" />
