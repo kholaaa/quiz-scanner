@@ -670,7 +670,7 @@ class _ResultScreenState extends State<ResultScreen> {
                               ),
                             ),
                           );
-                        }).toList(),
+                        }),
                       ],
                     ),
                   ),
@@ -839,12 +839,12 @@ class _ARResultScreenState extends State<ARResultScreen> {
               child: Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.black.withOpacity(0.75),
+                  color: Colors.black.withValues(alpha: 0.75),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(color: gradeColor, width: 2.5),
                   boxShadow: [
                     BoxShadow(
-                      color: gradeColor.withOpacity(0.4),
+                      color: gradeColor.withValues(alpha: 0.4),
                       blurRadius: 20,
                       spreadRadius: 2,
                     ),
@@ -1184,7 +1184,7 @@ class _BatchScreenState extends State<BatchScreen> {
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   itemCount: _images.length,
-                  separatorBuilder: (_, __) => const SizedBox(width: 6),
+                  separatorBuilder: (_, _) => const SizedBox(width: 6),
                   itemBuilder: (_, i) => ClipRRect(
                     borderRadius: BorderRadius.circular(8),
                     child: Image.file(
