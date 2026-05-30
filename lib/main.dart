@@ -228,11 +228,14 @@ class _ScanScreenState extends State<ScanScreen> {
       );
       setState(() => _status = "AI is grading...");
       var response = await request.send();
-      var data = jsonDecode(await response.stream.bytesToString());
+      var data =
+          jsonDecode(await response.stream.bytesToString())
+              as Map<String, dynamic>;
       if (data.containsKey("error")) {
         setState(() => _error = data["error"]);
         return;
       }
+      data["student"] ??= <String, dynamic>{};
       if (studentInfo["name"] != "Not detected") {
         data["student"]["name"] = studentInfo["name"];
       }
