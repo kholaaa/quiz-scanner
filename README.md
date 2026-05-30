@@ -109,7 +109,7 @@ Accuracy depends heavily on image quality. Detection may fail if:
 
 ## 🛠 Technologies & Libraries Used
 
-### Flutter App (`quiz_scanner`)
+### Flutter App (`quiz-scanner`)
 
 | Category | Details |
 |---|---|
@@ -118,7 +118,7 @@ Accuracy depends heavily on image quality. Detection may fail if:
 | Packages | `image_picker`, `mobile_scanner`, `http`, `excel`, `path_provider`, `provider` |
 | Platforms | Android |
 
-### Python Backend (`quiz_api`)
+### Python Backend (`quiz-api`)
 
 | Category | Details |
 |---|---|
@@ -140,12 +140,12 @@ Accuracy depends heavily on image quality. Detection may fail if:
 - [ ] Android Studio installed
 - [ ] Git installed
 
-### Backend Setup (`quiz_api`)
+### Backend Setup (`quiz-api`)
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/quiz-scanner.git
-cd quiz-scanner/quiz_api
+cd quiz-scanner/quiz-api
 
 # Install Python dependencies
 pip install -r requirements.txt
@@ -159,10 +159,10 @@ Deploy to Railway:
 2. Connect the repository to [Railway](https://railway.app)
 3. Railway auto-detects `Procfile` and `runtime.txt` and deploys
 
-### Flutter App Setup (`quiz_scanner`)
+### Flutter App Setup (`quiz-scanner`)
 
 ```bash
-cd quiz_scanner
+cd quiz-scanner
 
 # Install Flutter packages
 flutter pub get
